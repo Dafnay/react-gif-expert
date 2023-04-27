@@ -1,10 +1,13 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
-    background-color: rgb(234, 234, 234);
+  
   }
   
   body {
     padding: 60px;
+    background-image: url("https://cdn.pixabay.com/photo/2022/06/29/19/07/colored-7292420_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   input {
@@ -18,12 +21,18 @@
     width: 100%;
   }
   
+  h1 {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   h2 {
     font-size: 1.5rem;
   }
   
   h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 5px;
   }
   
@@ -32,6 +41,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    
   }
   
   .card {
